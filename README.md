@@ -23,7 +23,8 @@ Before running the code add the two dataset files in your DRIVE under dataset fo
 2. For changing number of clusters in baseline implementation change number of clusters present in line kmeans = KMeans(n_clusters=25, random_state=42,n_init = 100) to desired value in Step 4.
 3. For getting results for Hierarchical clustering execute step 1 to 3,then Step 11 and then steps 5 to 10.
 4.  For getting results for GMM clustering execute step 1 to 3,then Step 12 but results and not good enough in step 12.
-5. For creating genre vector without filtering execute step 1 to 10 and before executing change 
+5. For creating genre vector without filtering execute step 1 to 10 and before executing change ratings = ratings[ratings['rating'] > 3.5] in step 3 to ratings = ratings[ratings['rating'] > 0].
+6. For creating fake user uncomment the code in step 1 and execute.
 
 
 
